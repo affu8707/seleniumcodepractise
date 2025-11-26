@@ -30,7 +30,17 @@ public class stepDefinition extends BaseTest {
 	@Given("I landed on Ecommerce Page")
 	public void I_landed_on_Ecommerce_Pages() throws IOException {
 		System.out.println("I landed on Ecommerce Page");
+	}
 	
+	@Given("I landed on Ecommerce Page")
+	public void I_landed_on_Ecommerce_Pages2() throws IOException {
+		System.out.println("I landed on Ecommerce Page");
+	}
+	
+	@Given("I landed on Ecommerce Page")
+	public void I_landed_on_Ecommerce_Pages3() throws IOException {
+		System.out.println("I landed on Ecommerce Page");
+	}
 
 	@Given("^Logged in with username (.+) and password (.+)$")
 	public void logged_in_username_and_password(String username, String password) {
